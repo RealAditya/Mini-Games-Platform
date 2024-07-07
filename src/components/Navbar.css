@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+.navbar {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'bebas neue';
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.2em;
+  font-family: 'raleway';
+}
+
+.navbar-link:hover {
+  color: #ddd;
+}
+

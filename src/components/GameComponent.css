@@ -1,0 +1,96 @@
+/* src/components/GameComponent.css */
+
+.game-component {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  }
+  
+  .game-ui {
+    margin-bottom: 20px;
+  }
+  
+  .game-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .game-buttons button {
+    margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  }
+  
+  .game-buttons button:hover {
+    background-color: #555;
+  }
+  
+  /* src/components/GameComponent.css */
+
+.memory-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .memory-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+  }
+  
+  .memory-card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .memory-card.flipped {
+    background-color: #4caf50;
+  }
+  
+  .memory-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  .back-button, .play-again-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .back-button:hover, .play-again-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+  }
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

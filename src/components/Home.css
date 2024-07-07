@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+/* Container for the home page */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Title style */
+  .home-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the "Play Now!" button */
+  .play-now-button {
+    background-color: #f23030;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'bebas neue';
+
+  }
+  
+  /* Hover effect for the button */
+  .play-now-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+
+  .home {
+    position: relative;
+    background-color: #1a1a1a; /* Dark background */
+    color: white;
+    font-family: 'merriweather';
+    height: 200vh;
+}
+
+.hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue';
+    
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: red;
+    margin-bottom: 30px;
+    font-family: Verdana;
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out forwards;
+    
+}
+
+.delay {
+    animation-delay: 0.5s;
+}
+
+/* Home.css */
+
+.button {
+    background-color: #333; /* Black background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Text alignment */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 20px 0; /* Margin */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'raleway'; /* Font family */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.button:hover {
+    background-color: #555; /* Darker black on hover */
+    color: #fff; /* White text on hover */
+}
+
+.button:active {
+    background-color: #222; /* Even darker black on click */
+    transform: translateY(1px); /* Move down on click */
+}
+
+.benefits h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'merriweather';
+
+}
+.benefits ul {
+    font-size: 1em; /* Increase font size of the list items */
+    list-style-type: none;
+    padding: 0;
+    font-family: 'nunito';
+
+}
+
+.benefits li {
+    margin-bottom: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  

@@ -1,0 +1,62 @@
+.snake-chase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .board {
+    display: flex;
+    grid-template-columns: repeat(40, 40px);
+    grid-template-rows: repeat(20, 20px);
+    border: 2px solid #201f1f;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000;
+  }
+  
+  .snake {
+    background-color: #4CAF50;
+  }
+  
+  .food {
+    background-color: #F44336;
+  }
+  
+  .score {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .board {
+      grid-template-columns: repeat(20, 15px);
+      grid-template-rows: repeat(20, 15px);
+    }
+  
+    .cell {
+      width: 15px;
+      height: 15px;
+    }
+  }

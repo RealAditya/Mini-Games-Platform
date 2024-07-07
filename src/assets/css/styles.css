@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .home ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .home ul li {
+    margin-bottom: 10px;
+  }
+  
+  .home ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2em;
+  }
+  
+  .home ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .tic-tac-toe, .snake-chase {
+    margin-top: 20px;
+  }
+  
+  .tic-tac-toe .status, .snake-chase .game-over {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .tic-tac-toe .board, .snake-chase .board {
+    display: grid;
+    margin: 0 auto;
+  }
+  
+  .tic-tac-toe .board {
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+  .tic-tac-toe .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tic-tac-toe .cell:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .snake-chase .board {
+    grid-template-columns: repeat(20, 20px);
+    gap: 1px;
+  }
+  
+  .snake-chase .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .snake-chase .snake {
+    background-color: green;
+  }
+  
+  .snake-chase .food {
+    background-color: red;
+  }
+  
+  .snake-chase .game-over {
+    color: red;
+  }
+  
+  .game-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
