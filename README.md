@@ -30,6 +30,7 @@
   <ul>
     <li><strong>Tic Tac Toe</strong> - A classic tic-tac-toe game.</li>
     <li><strong>Memory Game</strong> - A game to test your memory by matching pairs of cards.</li>
+    <li><strong>Snake Game</strong> - A classic Snake Chase game.</li>
   </ul>
 
   <h2>Benefits of Gaming</h2>
